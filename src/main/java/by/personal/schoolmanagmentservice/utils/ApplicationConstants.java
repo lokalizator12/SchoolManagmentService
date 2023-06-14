@@ -1,4 +1,4 @@
-package com.syberry.school.utils;
+package by.personal.schoolmanagmentservice.utils;
 
 import java.text.SimpleDateFormat;
 
@@ -8,7 +8,7 @@ public class ApplicationConstants {
             "/home",
             "/",
             "/registration",
-            "/resources/**",
+            "/by/personal/schoolmanagmentservice/resources/**",
             "/static/**",
             "/css/**",
             "/js/**",

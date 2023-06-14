@@ -1,4 +1,4 @@
-package com.syberry.school.dto;
+package by.personal.schoolmanagmentservice.dto;
 
 public record ResponseMessaging(String message) {
 }

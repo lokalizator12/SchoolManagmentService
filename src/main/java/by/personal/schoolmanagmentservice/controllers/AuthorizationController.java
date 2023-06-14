@@ -1,12 +1,11 @@
-package com.syberry.school.controllers;
+package by.personal.schoolmanagmentservice.controllers;
 
-import com.syberry.school.entity.User;
-import com.syberry.school.repositories.UserRepository;
-import com.syberry.school.services.AuthorizationService;
+import by.personal.schoolmanagmentservice.entity.User;
+import by.personal.schoolmanagmentservice.repositories.UserRepository;
+import by.personal.schoolmanagmentservice.services.AuthorizationService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
-import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;

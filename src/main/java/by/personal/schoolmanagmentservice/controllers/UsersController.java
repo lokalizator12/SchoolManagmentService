@@ -1,7 +1,7 @@
-package com.syberry.school.controllers;
+package by.personal.schoolmanagmentservice.controllers;
 
-import com.syberry.school.entity.Image;
-import com.syberry.school.services.UsersService;
+import by.personal.schoolmanagmentservice.entity.Image;
+import by.personal.schoolmanagmentservice.services.UsersService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;

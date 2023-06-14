@@ -1,6 +1,6 @@
-package com.syberry.school.repositories;
+package by.personal.schoolmanagmentservice.repositories;
 
-import com.syberry.school.entity.User;
+import by.personal.schoolmanagmentservice.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,4 +1,4 @@
-package com.syberry.school.utils;
+package by.personal.schoolmanagmentservice.utils;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.multipart.MultipartFile;

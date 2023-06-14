@@ -1,10 +1,10 @@
-package com.syberry.school.services.impl;
+package by.personal.schoolmanagmentservice.services.impl;
 
-import com.syberry.school.entity.News;
-import com.syberry.school.repositories.NewsRepository;
-import com.syberry.school.repositories.UserRepository;
-import com.syberry.school.services.NewsService;
-import com.syberry.school.utils.UploadImage;
+import by.personal.schoolmanagmentservice.entity.News;
+import by.personal.schoolmanagmentservice.repositories.NewsRepository;
+import by.personal.schoolmanagmentservice.repositories.UserRepository;
+import by.personal.schoolmanagmentservice.services.NewsService;
+import by.personal.schoolmanagmentservice.utils.UploadImage;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
@@ -16,10 +16,7 @@ import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Optional;
 
-import static com.syberry.school.utils.ApplicationConstants.DATE_FORMAT_ENTITY;
-import static com.syberry.school.utils.ApplicationConstants.LOG_CREAT_POST_SUCCESSFUL;
-import static com.syberry.school.utils.ApplicationConstants.UPLOAD_DIRECTORY_IMAGES;
-import static com.syberry.school.utils.ApplicationConstants.UPLOAD_DIRECTORY_PREVIEW;
+import static by.personal.schoolmanagmentservice.utils.ApplicationConstants.*;
 
 @Slf4j
 @Service

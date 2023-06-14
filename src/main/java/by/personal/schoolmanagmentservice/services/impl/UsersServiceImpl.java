@@ -1,9 +1,9 @@
-package com.syberry.school.services.impl;
+package by.personal.schoolmanagmentservice.services.impl;
 
-import com.syberry.school.entity.Image;
-import com.syberry.school.entity.User;
-import com.syberry.school.repositories.UserRepository;
-import com.syberry.school.services.UsersService;
+import by.personal.schoolmanagmentservice.entity.Image;
+import by.personal.schoolmanagmentservice.entity.User;
+import by.personal.schoolmanagmentservice.repositories.UserRepository;
+import by.personal.schoolmanagmentservice.services.UsersService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;

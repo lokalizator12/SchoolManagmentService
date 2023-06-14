@@ -1,6 +1,6 @@
-package com.syberry.school.exceptions;
+package by.personal.schoolmanagmentservice.exceptions;
 
-import static com.syberry.school.utils.ApplicationConstants.IMAGE_NOT_FOUND;
+import static by.personal.schoolmanagmentservice.utils.ApplicationConstants.IMAGE_NOT_FOUND;
 
 public class ImageNotFoundException extends RuntimeException {
     public ImageNotFoundException() {

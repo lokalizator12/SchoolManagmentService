@@ -1,6 +1,6 @@
-package com.syberry.school.exceptions;
+package by.personal.schoolmanagmentservice.exceptions;
 
-import com.syberry.school.dto.ResponseMessaging;
+import by.personal.schoolmanagmentservice.dto.ResponseMessaging;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;

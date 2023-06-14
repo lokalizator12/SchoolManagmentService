@@ -1,19 +1,14 @@
-package com.syberry.school.controllers;
+package by.personal.schoolmanagmentservice.controllers;
 
-import com.syberry.school.entity.Image;
-import com.syberry.school.repositories.ImageRepository;
-import com.syberry.school.services.ImageService;
-import com.syberry.school.validations.FileIsExists;
+import by.personal.schoolmanagmentservice.entity.Image;
+import by.personal.schoolmanagmentservice.repositories.ImageRepository;
+import by.personal.schoolmanagmentservice.services.ImageService;
+import by.personal.schoolmanagmentservice.validations.FileIsExists;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 import javax.servlet.http.HttpServletResponse;

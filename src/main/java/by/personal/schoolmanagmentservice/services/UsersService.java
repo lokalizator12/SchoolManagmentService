@@ -1,7 +1,7 @@
-package com.syberry.school.services;
+package by.personal.schoolmanagmentservice.services;
 
-import com.syberry.school.entity.Image;
-import com.syberry.school.entity.User;
+import by.personal.schoolmanagmentservice.entity.Image;
+import by.personal.schoolmanagmentservice.entity.User;
 
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;

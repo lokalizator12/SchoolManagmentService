@@ -1,6 +1,6 @@
-package com.syberry.school.services;
+package by.personal.schoolmanagmentservice.services;
 
-import com.syberry.school.entity.News;
+import by.personal.schoolmanagmentservice.entity.News;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 

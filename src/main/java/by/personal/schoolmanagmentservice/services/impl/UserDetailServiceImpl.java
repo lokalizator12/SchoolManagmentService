@@ -1,10 +1,10 @@
-package com.syberry.school.services.impl;
+package by.personal.schoolmanagmentservice.services.impl;
 
-import com.syberry.school.entity.Role;
-import com.syberry.school.entity.User;
-import com.syberry.school.repositories.RoleRepository;
-import com.syberry.school.repositories.UserRepository;
-import com.syberry.school.services.AuthorizationService;
+import by.personal.schoolmanagmentservice.entity.Role;
+import by.personal.schoolmanagmentservice.entity.User;
+import by.personal.schoolmanagmentservice.repositories.RoleRepository;
+import by.personal.schoolmanagmentservice.repositories.UserRepository;
+import by.personal.schoolmanagmentservice.services.AuthorizationService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,11 +19,7 @@ import org.springframework.stereotype.Component;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Optional;
-import java.util.Set;
+import java.util.*;
 
 @Slf4j
 @RequiredArgsConstructor

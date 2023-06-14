@@ -1,10 +1,10 @@
-package com.syberry.school.services.impl;
+package by.personal.schoolmanagmentservice.services.impl;
 
-import com.syberry.school.entity.Image;
-import com.syberry.school.exceptions.ImageNotFoundException;
-import com.syberry.school.repositories.ImageRepository;
-import com.syberry.school.services.ImageService;
-import com.syberry.school.utils.UploadImage;
+import by.personal.schoolmanagmentservice.entity.Image;
+import by.personal.schoolmanagmentservice.exceptions.ImageNotFoundException;
+import by.personal.schoolmanagmentservice.repositories.ImageRepository;
+import by.personal.schoolmanagmentservice.services.ImageService;
+import by.personal.schoolmanagmentservice.utils.UploadImage;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.ui.Model;
@@ -16,7 +16,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.Optional;
 
-import static com.syberry.school.utils.ApplicationConstants.UPLOAD_DIRECTORY_GALLERY;
+import static by.personal.schoolmanagmentservice.utils.ApplicationConstants.UPLOAD_DIRECTORY_GALLERY;
 
 @Service
 @RequiredArgsConstructor

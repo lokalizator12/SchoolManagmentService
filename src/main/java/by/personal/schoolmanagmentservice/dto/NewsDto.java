@@ -1,6 +1,6 @@
-package com.syberry.school.dto;
+package by.personal.schoolmanagmentservice.dto;
 
-import com.syberry.school.entity.News;
+import by.personal.schoolmanagmentservice.entity.News;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.Getter;

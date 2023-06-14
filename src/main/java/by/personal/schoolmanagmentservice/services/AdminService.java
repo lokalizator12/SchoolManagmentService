@@ -1,7 +1,7 @@
-package com.syberry.school.services;
+package by.personal.schoolmanagmentservice.services;
 
-import com.syberry.school.entity.Role;
-import com.syberry.school.entity.User;
+import by.personal.schoolmanagmentservice.entity.Role;
+import by.personal.schoolmanagmentservice.entity.User;
 
 import java.util.List;
 import java.util.Optional;

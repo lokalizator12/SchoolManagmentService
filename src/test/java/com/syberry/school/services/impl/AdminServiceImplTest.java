@@ -1,8 +1,8 @@
-package com.syberry.school.services.impl;
+package by.personal.schoolmanagmentservice.services.impl;
 
-import com.syberry.school.entity.User;
-import com.syberry.school.repositories.RoleRepository;
-import com.syberry.school.repositories.UserRepository;
+import by.personal.schoolmanagmentservice.entity.User;
+import by.personal.schoolmanagmentservice.repositories.RoleRepository;
+import by.personal.schoolmanagmentservice.repositories.UserRepository;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

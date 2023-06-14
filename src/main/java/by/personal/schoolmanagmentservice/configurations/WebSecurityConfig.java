@@ -1,4 +1,4 @@
-package com.syberry.school.configurations;
+package by.personal.schoolmanagmentservice.configurations;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
@@ -8,9 +8,8 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 
-import static com.syberry.school.utils.ApplicationConstants.ADMIN_ACCESS_LIST;
-import static com.syberry.school.utils.ApplicationConstants.USERS_ACCESS_LIST;
-import static com.syberry.school.utils.ApplicationConstants.WHITELIST;
+import static by.personal.schoolmanagmentservice.utils.ApplicationConstants.*;
+
 
 @EnableWebSecurity
 @EnableGlobalMethodSecurity(prePostEnabled = true, securedEnabled = true)

@@ -1,6 +1,6 @@
-package com.syberry.school.services;
+package by.personal.schoolmanagmentservice.services;
 
-import com.syberry.school.entity.User;
+import by.personal.schoolmanagmentservice.entity.User;
 
 import java.io.IOException;
 import java.util.Optional;

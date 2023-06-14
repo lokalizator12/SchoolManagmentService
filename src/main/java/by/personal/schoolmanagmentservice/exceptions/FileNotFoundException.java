@@ -1,4 +1,4 @@
-package com.syberry.school.exceptions;
+package by.personal.schoolmanagmentservice.exceptions;
 
 public class FileNotFoundException extends RuntimeException {
 

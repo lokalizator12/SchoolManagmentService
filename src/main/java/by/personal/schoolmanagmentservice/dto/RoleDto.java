@@ -1,7 +1,7 @@
-package com.syberry.school.dto;
+package by.personal.schoolmanagmentservice.dto;
 
 
-import com.syberry.school.entity.Role;
+import by.personal.schoolmanagmentservice.entity.Role;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

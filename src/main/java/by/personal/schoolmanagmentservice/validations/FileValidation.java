@@ -1,4 +1,4 @@
-package com.syberry.school.validations;
+package by.personal.schoolmanagmentservice.validations;
 
 
 import lombok.RequiredArgsConstructor;

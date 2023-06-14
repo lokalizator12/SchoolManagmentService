@@ -1,10 +1,10 @@
-package com.syberry.school.services.impl;
+package by.personal.schoolmanagmentservice.services.impl;
 
-import com.syberry.school.entity.Role;
-import com.syberry.school.entity.User;
-import com.syberry.school.repositories.RoleRepository;
-import com.syberry.school.repositories.UserRepository;
-import com.syberry.school.services.AdminService;
+import by.personal.schoolmanagmentservice.entity.Role;
+import by.personal.schoolmanagmentservice.entity.User;
+import by.personal.schoolmanagmentservice.repositories.RoleRepository;
+import by.personal.schoolmanagmentservice.repositories.UserRepository;
+import by.personal.schoolmanagmentservice.services.AdminService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
