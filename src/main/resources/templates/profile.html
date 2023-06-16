@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="english"
+>
+<head>
+    <meta charset="UTF-8">
+    <title>Profile</title>
+</head>
+<body>
+<form action="#" th:action="@{/profile/{id}(id=${user.id})}" th:object="${user}" method="post"
+      enctype="multipart/form-data">
+    <div class="row">
+        <div class="form-group col-md-8">
+            <label for="avatar" class="col-form-label">Avatar </label> <img
+                th:src="@{${'/users/avatar/display/'+ user.id}}"
+                class="card img-fluid" style="width:200px" id="avatar">
+            <span th:if="${#fields.hasErrors('avatar')}" th:errors="*{avatar}"
+                  class="text-danger"></span>
+        </div>
+        <div class="form-group col-md-6">
+            <label for="firstName" class="col-form-label">First name</label> <input type="text"
+                                                                                    th:field="*{firstName}"
+                                                                                    class="form-control"
+                                                                                    id="firstName"
+                                                                                    placeholder="firstName">
+            <span th:if="${#fields.hasErrors('firstName')}" th:errors="*{firstName}"
+                  class="text-danger"></span>
+        </div>
+        <div class="form-group col-md-8">
+            <label for="lastName" class="col-form-label">Last name</label><input type="text"
+                                                                                 th:field="*{lastName}"
+                                                                                 class="form-control"
+                                                                                 id="lastName"
+                                                                                 placeholder="lastName">
+            <span th:if="${#fields.hasErrors('lastName')}" th:errors="*{lastName}"
+                  class="text-danger"></span>
+        </div>
+        <div class="form-group col-md-8">
+            <label for="Email" class="col-form-label">Email</label> <input type="text"
+                                                                           th:field="*{email}"
+                                                                           class="form-control"
+                                                                           id="Email"
+                                                                           placeholder="Email"> <span
+                th:if="${#fields.hasErrors('email')}" th:errors="*{email}" class="text-danger"></span>
+        </div>
+        <form th:action="@{/profile/confirm-email}" method="post">
+            <div>
+                <label for="emaill">Email:</label>
+                <input type="email" id="emaill" name="email" required>
+            </div>
+            <div>
+                <button type="submit">Confirm Email</button>
+            </div>
+        </form>
+        <div class="form-group col-md-8">
+            <label for="number" class="col-form-label">Number phone</label> <input type="number"
+                                                                                   th:field="*{numberPhone}"
+                                                                                   class="form-control"
+                                                                                   id="number"
+                                                                                   placeholder="number phone"> <span
+                th:if="${#fields.hasErrors('numberPhone')}" th:errors="*{numberPhone}" class="text-danger"></span>
+        </div>
+
+        <div class="form-group col-md-8">
+            <label for="dateOfBirthday" class="col-form-label">Date of birthday</label> <input type="date"
+                                                                                               th:field="*{dateOfBirth}"
+                                                                                               class="form-control"
+                                                                                               id="dateOfBirthday"
+                                                                                               placeholder="Date of birthday">
+            <span
+                    th:if="${#fields.hasErrors('dateOfBirth')}" th:errors="*{dateOfBirth}" class="text-danger"></span>
+        </div>
+
+        <div class="form-group col-md-8">
+            <label for="biografy" class="col-form-label">About me</label> <textarea
+                th:field="*{biografy}"
+                class="form-control"
+                id="biografy"
+                placeholder="biografy"> </textarea> <span
+                th:if="${#fields.hasErrors('biografy')}" th:errors="*{biografy}" class="text-danger"></span>
+        </div>
+
+
+        <div class="form-group col-md-8">
+            <br>
+            <input type="radio" id="male" name="gender" value="male" th:field="*{sex}">
+            <label for="male">Мужской</label>
+            <br>
+            <input type="radio" id="female" name="gender" value="female" th:field="*{sex}">
+            <label for="female">Женский</label>
+            <br>
+            <input type="radio" id="unspecified" name="gender" value="unspecified" th:field="*{sex}">
+            <label for="unspecified">Не хочу говорить</label>
+        </div>
+
+        <div class="form-group col-md-8">
+            <input type="submit" class="btn btn-primary" value="Update user">
+        </div>
+        <div class="form-group col-md-8">
+            <a type="submit" class="btn btn-primary" th:href="@{/admin}">Admin panel</a>
+        </div>
+    </div>
+</form>
+</body>
+</html>

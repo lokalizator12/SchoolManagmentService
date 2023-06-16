@@ -8,6 +8,7 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Size;
 import java.io.Serializable;
+import java.util.Date;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -44,6 +45,18 @@ public class User implements Serializable {
     @NotBlank(message = "Password is mandatory")
     @Column
     private String password;
+
+    @Column
+    private String biografy;
+
+    @Column
+    private int numberPhone;
+
+    @Column
+    private String sex;
+
+    @Column
+    private Date dateOfBirth;
 
     @Lob
     @Column(name = "avatar")

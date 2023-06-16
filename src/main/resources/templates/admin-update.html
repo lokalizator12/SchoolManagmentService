@@ -19,7 +19,7 @@
     <div class="card">
         <div class="card-body">
             <div class="col-md-8">
-                <form action="#" th:action="@{/admin/update/{id}(id=${user.id})}" th:object="${user}" method="post" enctype="multipart/form-data">
+                <form action="#" th:action="@{/admin/update/{id}(id=${user})}" th:object="${user}" method="post" enctype="multipart/form-data">
                     <div class="row">
                         <div class="form-group col-md-8">
                             <label for="avatar" class="col-form-label">Avatar </label> <img th:src="@{${'/users/avatar/display/'+ user.id}}"
